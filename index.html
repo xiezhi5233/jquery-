@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        1609B谢德智-4月JQuery结课作业
+    </title>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <!--TODO:header-->
+    <div class="header">
+        <div class="header-top-max">
+            <div class="header-top maxWidth clearfix">
+            <span class="float-l">
+                <a href="#">
+                    <i class="fa fa-phone"></i>
+                    +2 95 01 88 821
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    info@domain.com
+                </a>
+            </span>
+            <span class="float-r">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </span>
+            </div>
+        </div>
+        <div class="logo-bar-max">
+            <div class="logo-bar maxWidth clearfix">
+                <div class="logo-bar-left float-l">
+                    <a href="#"><img src="images/home/logo.png" alt=""/></a>
+                    <div class="logo-select">
+                        <span>USA<i></i></span>
+                        <ul>
+                            <li>Canada</li>
+                            <li>Uk</li>
+                        </ul>
+                        <span>DOLLAR<i></i></span>
+                        <ul>
+                            <li>Canadian Dollar</li>
+                            <li>Pound</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo-rightNav float-r">
+                    <ul class="clearfix">
+                        <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+                        <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+                        <li><a href="#"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                        <li><a href="#"><i class="fa fa-lock"></i> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav-max">
+            <div class="header-nav maxWidth clearfix">
+                <ul class="header-navBox float-l">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                        <ul role="menu" class="sub-menu">
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Product Details</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Cart</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
+                        <ul role="menu" class="sub-menu">
+                            <li><a href="#">Blog List</a></li>
+                            <li><a href="#">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">404</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="float-r">
+                    <form action="">
+                        <input type="text" placeholder="Search"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TODO:container-->
+    <div class="container">
+        <div class="banner-scroll-max">
+            <div class="banner-scroll maxWidth">
+                <ul class="banner-blockAll clearfix">
+                    <li>
+                        <div class="bannerTxt">
+                            <h2><span>E</span>-SHOPPER</h2>
+                            <h4>Free E-Commerce Template</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button>Get it now</button>
+                        </div>
+                        <div class="bannerImg">
+                            <img src="images/home/girl1.jpg" alt="图像无法显示"/>
+                            <img src="images/home/pricing.png" alt=""/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bannerTxt">
+                            <h2><span>E</span>-SHOPPER</h2>
+                            <h4>100% Responsive Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button>Get it now</button>
+                        </div>
+                        <div class="bannerImg">
+                            <img src="images/home/girl2.jpg" alt="图像无法显示"/>
+                            <img src="images/home/pricing.png" alt=""/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bannerTxt">
+                            <h2><span>E</span>-SHOPPER</h2>
+                            <h4>Free Ecommerce Template</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button>Get it now</button>
+                        </div>
+                        <div class="bannerImg">
+                            <img src="images/home/girl3.jpg" alt="图像无法显示"/>
+                            <img src="images/home/pricing.png" alt=""/>
+                        </div>
+                    </li>
+                </ul>
+                <div class="bannerLeftBtn"><i></i></div>
+                <div class="bannerRightBtn"><i></i></div>
+                <ol>
+                    <li class="banOn"></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+        </div>
+        <div class="cont-box-max">
+            <div class="cont-box maxWidth clearfix">
+                <div class="cont-left float-l">
+                    <div class="contBlock-title">
+                        <h2><span>CATEGORY</span></h2>
+                    </div>
+                    <div class="cont-left-menu">
+                        <ul>
+                            <li>
+                                SPORTSWEAR
+                                <i class="fa fa-plus"></i>
+                                <ul>
+                                    <li><a href="#">NIKE</a></li>
+                                    <li><a href="#">UNDER ARMOUR</a></li>
+                                    <li><a href="#">ADIDAS</a></li>
+                                    <li><a href="#">PUMA</a></li>
+                                    <li><a href="#">ASICS</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                MENS
+                                <i class="fa fa-plus"></i>
+
+                                <ul>
+                                    <li><a href="#">FENDI</a></li>
+                                    <li><a href="#">GUESS</a></li>
+                                    <li><a href="#">VALENTINO</a></li>
+                                    <li><a href="#">DIOR</a></li>
+                                    <li><a href="#">VERSACE</a></li>
+                                    <li><a href="#">ARMANI</a></li>
+                                    <li><a href="#">PRADA</a></li>
+                                    <li><a href="#">DOLCE AND GABBANA</a></li>
+                                    <li><a href="#">CHANEL</a></li>
+                                    <li><a href="#">GUCCI</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                WOMENS
+                                <i class="fa fa-plus"></i>
+                                <ul>
+                                    <li><a href="#">FENDI</a></li>
+                                    <li><a href="#">GUESS</a></li>
+                                    <li><a href="#">VALENTINO</a></li>
+                                    <li><a href="#">DIOR</a></li>
+                                    <li><a href="#">VERSACE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="#">KIDS</a>
+                        <a href="#">FASHION</a>
+                        <a href="#">HOUSEHOLDS</a>
+                        <a href="#">INTERIORS</a>
+                        <a href="#">CLOTHING</a>
+                        <a href="#">BAGS</a>
+                        <a href="#">SHOES</a>
+                    </div>
+                    <div class="contBlock-title">
+                        <h2><span>BRANDS</span></h2>
+                    </div>
+                    <div class="cont-left-brands">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="#"> <span>(50)</span>Acne</a></li>
+                            <li><a href="#"> <span>(56)</span>Grüne Erde</a></li>
+                            <li><a href="#"> <span>(27)</span>Albiro</a></li>
+                            <li><a href="#"> <span>(32)</span>Ronhill</a></li>
+                            <li><a href="#"> <span>(5)</span>Oddmolly</a></li>
+                            <li><a href="#"> <span>(9)</span>Boudestijn</a></li>
+                            <li><a href="#"> <span>(4)</span>Rösch creative culture</a></li>
+                        </ul>                    
+                    </div>
+                    <div class="contBlock-title">
+                        <h2><span>PRICE RANGE</span></h2>
+                    </div>
+                    <div class="cont-left-price">
+                        <div class="cont-left-priceBar">
+                            <div><div>0-600<i></i></div></div>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <p>$ 0 <span>$ 600</span></p>
+                    </div>
+                    <div class="cont-left-footer">
+                        <a href="#"><img src="images/home/shipping.jpg" alt=""/></a>
+                    </div>
+                </div>
+                <div class="cont-right float-r">
+                    <!-- f1-->
+                    <div class="contBlock-title">
+                        <h2><span>FEATURES ITEMS</span></h2>
+                    </div>
+                    <div class="cont-right-f1 clearfix">
+                        <!-- JSON-->
+                        <!--<div class="commodity">-->
+                                <!--<div class="commodity-main">-->
+                                    <!--<img src="images/home/new.png" alt=""/>-->
+                                    <!--<div>-->
+                                        <!--<img src="images/home/product1.jpg" alt="">-->
+                                        <!--<h2>$56</h2>-->
+                                        <!--<p>Easy Polo Black Edition</p>-->
+                                        <!--<a href="#"><i class="fa fa-shopping-cart"></i>Add to cart</a>-->
+                                    <!--</div>-->
+                                    <!--<div class="commodity-main-hidden">-->
+                                        <!--<div class="overlay-content">-->
+                                            <!--<img src="images/home/product1.jpg" alt="">-->
+                                            <!--<h2>$56</h2>-->
+                                            <!--<p>Easy Polo Black Edition</p>-->
+                                            <!--<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                    <!--<p>-->
+                                        <!--<a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a>-->
+                                        <!--<a href="#"><i class="fa fa-plus-square"></i>Add to compare</a>-->
+                                    <!--</p>-->
+                        <!--</div>-->
+                    </div>
+                    <!-- f2-->
+                    <div class="cont-right-f2 clearfix">
+                        <ol class="cont-right-f2-nav">
+                            <!-- JSON-->
+                            <!--<li class="contF2On">T-Shirt</li>-->
+                        </ol>
+                        <div class="clearfix">
+                            <ul class="cont-right-f2-contAll contFontStyle">
+                                <!-- JSON-->
+                                <!--<li>-->
+                                    <!--<div>-->
+                                        <!--<a href="#"><img src="images/home/gallery1.jpg" alt=""></a>-->
+                                        <!--<h2>$56</h2>-->
+                                        <!--<p>Easy Polo Black Edition</p>-->
+                                        <!--<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>-->
+                                    <!--</div>-->
+                                <!--</li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- f3-->
+                    <div class="contBlock-title">
+                        <h2><span>RECOMMENDED ITEMS</span></h2>
+                    </div>
+                    <div class="cont-right-f3">
+                        <div class="cont-right-f3-imgAllBox clearfix">
+                            <ul class="cont-right-f3-imgAll contFontStyle clearfix">
+                                <!-- JSON-->
+                                <!--<li>-->
+                                    <!--<div>-->
+                                        <!--<img src="images/home/recommend1.jpg" alt="">-->
+                                        <!--<h2>$56</h2>-->
+                                        <!--<p>Easy Polo Black Edition</p>-->
+                                        <!--<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>-->
+                                    <!--</div>-->
+                                <!--</li>-->
+                            </ul>
+                        </div>
+                        <span>
+                            <i class="fa fa-angle-left"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TODO:footer-->
+    <div class="footer">
+        <div class="footer-max">
+            <div class="footer-cont maxWidth">
+                <div class="footer-cont-f1 clearfix">
+                    <div class="foot-f1Left">
+                        <h3><span>E</span>-SHOPPER</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor
+                        </p>
+                    </div>
+                    <div class="foot-f1Center">
+                        <div class="foot-f1CenterBlock">
+                            <div>
+                                <img src="images/home/iframe1.png" alt="">
+                                <div>
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </div>
+                            <p>Circle of Hands</p>
+                            <p>24 DEC 2014</p>
+                        </div>
+                        <div class="foot-f1CenterBlock">
+                            <div>
+                                <img src="images/home/iframe2.png" alt="">
+                                <div>
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </div>
+                            <p>Circle of Hands</p>
+                            <p>24 DEC 2014</p>
+                        </div>
+                        <div class="foot-f1CenterBlock">
+                            <div>
+                                <img src="images/home/iframe3.png" alt="">
+                                <div>
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </div>
+                            <p>Circle of Hands</p>
+                            <p>24 DEC 2014</p>
+                        </div>
+                        <div class="foot-f1CenterBlock">
+                            <div>
+                                <img src="images/home/iframe4.png" alt="">
+                                <div>
+                                    <i class="fa fa-play-circle-o"></i>
+                                </div>
+                            </div>
+                            <p>Circle of Hands</p>
+                            <p>24 DEC 2014</p>
+                        </div>
+                    </div>
+                    <div class="foot-f1Right">
+                        <div>
+                            <img src="images/home/map.png" alt=""/>
+                            <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-cont-f2 clearfix">
+                    <div class="footer-cont-f2-left clearfix">
+                        <div class="footer-menuBlock">
+                            <h2>SERVICE</h2>
+                            <ul>
+                                <li><a href="#">Online Help</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Order Status</a></li>
+                                <li><a href="#">Change Location</a></li>
+                                <li><a href="#">FAQ’s</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menuBlock">
+                            <h2>Quock Shop</h2>
+                            <ul>
+                                <li><a href="#">T-Shirt</a></li>
+                                <li><a href="#">Mens</a></li>
+                                <li><a href="#">Womens</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Shoes</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menuBlock">
+                            <h2>Policies</h2>
+                            <ul>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privecy Policy</a></li>
+                                <li><a href="#">Refund Policy</a></li>
+                                <li><a href="#">Billing System</a></li>
+                                <li><a href="#">Ticket System</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menuBlock">
+                            <h2>About Shopper</h2>
+                            <ul>
+                                <li><a href="#">Company Information</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Store Location</a></li>
+                                <li><a href="#">Affillate Program</a></li>
+                                <li><a href="#">Copyright</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-cont-f2-right">
+                        <h2>ABOUT SHOPPER</h2>
+                        <div class="clearfix">
+                            <form action="">
+                                <input type="text" placeholder="Your email address"/>
+                                <button><i class="fa fa-arrow-circle-o-right"></i></button>
+                            </form>
+                        </div>
+                        <p>Get the most recent updates from
+                            our site and be updated your self...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-max">
+            <div class="footer-bottomCopy maxWidth">
+                <span>Copyright &copy; 2013 E-SHOPPER Inc. All rights reserved.</span>
+                <span class="float-r">Designed by <a href="#">Themeum</a></span>
+            </div>
+            <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+        </div>
+    </div>
+    <!--wrapper结束-->
+</div>
+</body>
+</html>

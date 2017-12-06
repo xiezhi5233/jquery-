@@ -1,0 +1,269 @@
+{
+  "commodity":[
+    {
+      "imgSrc":"images/home/product1.jpg",
+      "imgTitle":"商品图像01",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    },
+    {
+      "imgSrc":"images/home/product2.jpg",
+      "imgTitle":"商品图像02",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    },
+    {
+      "imgSrc":"images/home/product3.jpg",
+      "imgTitle":"商品图像03",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    },
+    {
+      "imgSrc":"images/home/product4.jpg",
+      "imgTitle":"商品图像04",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":"images/home/new.png"
+    },
+    {
+      "imgSrc":"images/home/product5.jpg",
+      "imgTitle":"商品图像05",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":"images/home/sale.png"
+    },
+    {
+      "imgSrc":"images/home/product6.jpg",
+      "imgTitle":"商品图像06",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    }
+
+  ],
+  "cardTab":{
+    "tabNav":[
+      "T-Shirt",
+      "Blazers",
+      "Sunglass",
+      "Kids",
+      "Polo shirt"
+    ],
+    "cont":[
+      [
+        {
+          "imgSrc":"images/home/gallery1.jpg",
+          "imgTitle":"商品图像01",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery2.jpg",
+          "imgTitle":"商品图像02",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery3.jpg",
+          "imgTitle":"商品图像03",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery4.jpg",
+          "imgTitle":"商品图像04",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        }
+      ],
+      [
+        {
+          "imgSrc":"images/home/gallery2.jpg",
+          "imgTitle":"商品图像02",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery3.jpg",
+          "imgTitle":"商品图像03",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery4.jpg",
+          "imgTitle":"商品图像04",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery1.jpg",
+          "imgTitle":"商品图像01",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        }
+      ],
+      [
+        {
+          "imgSrc":"images/home/gallery3.jpg",
+          "imgTitle":"商品图像03",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery4.jpg",
+          "imgTitle":"商品图像04",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery1.jpg",
+          "imgTitle":"商品图像01",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery2.jpg",
+          "imgTitle":"商品图像02",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        }
+      ],
+      [
+        {
+          "imgSrc":"images/home/gallery4.jpg",
+          "imgTitle":"商品图像04",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery1.jpg",
+          "imgTitle":"商品图像01",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery2.jpg",
+          "imgTitle":"商品图像02",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery3.jpg",
+          "imgTitle":"商品图像03",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        }
+      ],
+      [
+        {
+          "imgSrc":"images/home/gallery2.jpg",
+          "imgTitle":"商品图像02",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery4.jpg",
+          "imgTitle":"商品图像04",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery1.jpg",
+          "imgTitle":"商品图像01",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        },
+        {
+          "imgSrc":"images/home/gallery3.jpg",
+          "imgTitle":"商品图像03",
+          "imgAlt":"图像无法加载",
+          "price":"$56",
+          "text":"Easy Polo Black Edition",
+          "aHref":"#"
+        }
+      ]
+    ]
+  },
+  "footScroll":[
+    {
+      "imgSrc":"images/home/recommend1.jpg",
+      "imgTitle":"商品图像01",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    },
+    {
+      "imgSrc":"images/home/recommend2.jpg",
+      "imgTitle":"商品图像02",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    },
+    {
+      "imgSrc":"images/home/recommend3.jpg",
+      "imgTitle":"商品图像03",
+      "imgAlt":"图像无法加载",
+      "price":"$56",
+      "text":"Easy Polo Black Edition",
+      "aHref":"#",
+      "trImgSrc":""
+    }
+  ]
+}
